@@ -1,7 +1,7 @@
 <?php
 namespace Puleeno\Extensions\GoogleMapsEmbedding\Gutenberg;
 
-use Jankx\Gutenberg\Abstracts\Block;
+use Jankx\Gutenberg\Block;
 use Puleeno\Extensions\GoogleMapsEmbedding\GoogleMapsEmbeddingExtension;
 
 class GoogleMapsApiBlock extends Block
