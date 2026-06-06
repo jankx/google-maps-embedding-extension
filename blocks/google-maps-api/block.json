@@ -42,5 +42,5 @@
             "full"
         ]
     },
-    "editorScript": "file:./index.js"
+    "editorScript": "file:../../dist/index.js"
 }
