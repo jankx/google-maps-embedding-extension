@@ -1,0 +1,46 @@
+{
+    "name": "jankx/google-maps-api",
+    "title": "Google Maps (API)",
+    "category": "jankx",
+    "icon": "location-alt",
+    "description": "Embed a Google Map using the JavaScript API for advanced custom styling.",
+    "keywords": [
+        "google",
+        "map",
+        "location",
+        "api"
+    ],
+    "attributes": {
+        "latitude": {
+            "type": "number",
+            "default": 21.0285
+        },
+        "longitude": {
+            "type": "number",
+            "default": 105.8542
+        },
+        "zoom": {
+            "type": "number",
+            "default": 15
+        },
+        "height": {
+            "type": "string",
+            "default": "450px"
+        },
+        "markerTitle": {
+            "type": "string",
+            "default": "Hanoi"
+        },
+        "mapStyles": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ]
+    },
+    "editorScript": "file:./index.js"
+}

@@ -1,0 +1,34 @@
+{
+    "name": "jankx/google-maps-embed",
+    "title": "Google Maps (Embed)",
+    "category": "jankx",
+    "icon": "share-alt2",
+    "description": "Embed a Google Map using the standard iframe embed code.",
+    "keywords": [
+        "google",
+        "map",
+        "iframe",
+        "embed"
+    ],
+    "attributes": {
+        "embedCode": {
+            "type": "string",
+            "default": ""
+        },
+        "height": {
+            "type": "string",
+            "default": "450px"
+        },
+        "aspectRatio": {
+            "type": "string",
+            "default": "16/9"
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ]
+    },
+    "editorScript": "file:./index.js"
+}
