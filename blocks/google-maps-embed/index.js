@@ -2,7 +2,7 @@
     var registerBlockType = wp.blocks.registerBlockType;
     var el = wp.element.createElement;
     var __ = wp.i18n.__;
-    var InspectorControls = wp.block_editor.InspectorControls;
+    var InspectorControls = wp.blockEditor.InspectorControls;
     var components = wp.components;
 
     registerBlockType('jankx/google-maps-embed', {
