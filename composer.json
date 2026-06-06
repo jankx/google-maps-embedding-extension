@@ -1,0 +1,24 @@
+{
+    "name": "puleeno/jankx-google-maps-embedding",
+    "description": "Google Maps embedding support with API and Iframe options for Jankx Framework.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Puleeno\\Extensions\\GoogleMapsEmbedding\\": [
+                "",
+                "includes/"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    }
+}
