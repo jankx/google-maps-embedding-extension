@@ -36,6 +36,14 @@
             "default": ""
         }
     },
+    "example": {
+        "attributes": {
+            "latitude": 21.0285,
+            "longitude": 105.8542,
+            "zoom": 15,
+            "markerTitle": "Hanoi"
+        }
+    },
     "supports": {
         "align": [
             "wide",
